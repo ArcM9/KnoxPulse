@@ -1,0 +1,17 @@
+- type: office
+  name: Mayor of Knoxville
+  jurisdiction: City of Knoxville
+  level: city
+- type: office
+  name: Knoxville City Council - At-Large Seat A
+  jurisdiction: City of Knoxville
+  level: city
+- type: office
+  name: Knoxville City Council - District 4
+  jurisdiction: City of Knoxville
+  level: city
+  district: '4'
+- type: race
+  name: Knoxville City Council District 4 (Next Election)
+  jurisdiction: City of Knoxville
+  level: city

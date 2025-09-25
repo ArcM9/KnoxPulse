@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CivicPulse</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>CivicPulse</h1>
+      <p>Local legislation, notices, and events ranked by importance.</p>
+      <div id="filters">
+        <input id="city" placeholder="City (optional)" />
+        <select id="category">
+          <option value="">All categories</option>
+          <option value="legislation">Legislation</option>
+          <option value="agenda">Agenda</option>
+          <option value="public_notice">Public Notice</option>
+          <option value="infrastructure">Infrastructure</option>
+          <option value="safety">Safety</option>
+          <option value="event">Event</option>
+          <option value="news">News</option>
+        </select>
+        <button id="load">Load</button>
+      </div>
+    </header>
+    <main>
+      <ul id="feed"></ul>
+    
+<section class="panel">
+  <h2>Community Marketplace (Knoxville)</h2>
+  <div id="market-list"></div>
+  <h3>Post a Listing</h3>
+  <div class="form">
+    <input id="m_title" placeholder="Title">
+    <input id="m_price" type="number" step="0.01" placeholder="Price">
+    <input id="m_category" placeholder="Category (for_sale/services/housing/gigs)">
+    <input id="m_contact" placeholder="Contact (email/phone)">
+    <textarea id="m_desc" placeholder="Description"></textarea>
+    <button id="m_post">Post Listing</button>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2>Community Events (Knoxville)</h2>
+  <div id="events-list"></div>
+  <h3>Submit an Event</h3>
+  <div class="form">
+    <input id="e_title" placeholder="Title">
+    <input id="e_venue" placeholder="Venue">
+    <input id="e_start" type="datetime-local">
+    <input id="e_end" type="datetime-local">
+    <input id="e_contact" placeholder="Host Contact">
+    <textarea id="e_desc" placeholder="Description"></textarea>
+    <button id="e_submit">Submit Event (moderated)</button>
+  </div>
+</section>
+
+
+<section class="panel">
+  <h2>Who Runs Knoxville (Directory)</h2>
+  <button id="load_incumbents">Load Current Officeholders</button>
+  <div id="incumbent-list"></div>
+</section>
+
+<section class="panel">
+  <h2>Elections & Candidates</h2>
+  <div class="form">
+    <input id="race_id" type="number" placeholder="Race ID (optional)">
+    <button id="load_candidates">Load Candidates</button>
+  </div>
+  <div id="candidate-list"></div>
+</section>
+
+</main>
+    <footer>
+      <small>Starter UI — connect to http://localhost:8000</small>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

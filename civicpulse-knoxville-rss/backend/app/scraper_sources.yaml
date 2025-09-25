@@ -1,0 +1,36 @@
+- name: Knoxville City Council - Agendas
+  url: https://knoxvilletn.gov/government/city_council/agendas_minutes
+  type: city.gov
+  category: agenda
+  city: Knoxville, TN
+  official: true
+- name: Knox County Commission - Agendas
+  url: https://www.knoxcounty.org/commission/agenda.php
+  type: county.gov
+  category: agenda
+  city: Knoxville, TN
+  official: true
+- name: City of Knoxville - Ordinances
+  url: https://knoxvilletn.gov/government/city_council/ordinances
+  type: city.gov
+  category: legislation
+  city: Knoxville, TN
+  official: true
+- name: Knoxville Events Calendar (Visit Knoxville)
+  url: https://www.visitknoxville.com/events/
+  type: local_news
+  category: event
+  city: Knoxville, TN
+  official: false
+- name: KUB Outages and Notices
+  url: https://www.kub.org/outage-center/
+  type: community
+  category: infrastructure
+  city: Knoxville, TN
+  official: false
+- name: Knox County Schools Board of Education - Agendas/Minutes
+  url: https://www.knoxschools.org/board
+  type: community
+  category: agenda
+  city: Knoxville, TN
+  official: false
